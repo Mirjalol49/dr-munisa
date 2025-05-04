@@ -1,0 +1,94 @@
+.hero {
+   padding-top: 180px;
+   width: 100%;
+   height: 100%;
+   --color: rgba(114, 114, 114, 0.3);
+   background-color: #191a1a;
+   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+       linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+   background-size: 55px 55px;
+}
+
+.hero-wrapper {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+}
+
+.hero-content-wrapper {
+   margin-top: 50px;
+   position: relative;
+}
+
+.hero-title {
+font-family: "Satoshi-Black", sans-serif;
+font-size:3.5rem;
+text-transform: uppercase;
+line-height: 1.2;
+
+
+
+
+
+}
+
+.hero-invert {
+   position: absolute;
+   right: 100px;
+   top: -40px;
+}
+
+.hero-text {
+   font-family: "Wotfard", sans-serif;
+   font-size: 1.5rem;
+   line-height: 1.5;
+   margin-top: 15px;
+}
+
+
+.book-content {
+   position: absolute;
+   top: 630px;
+   right: 150px;
+   left: 150px;
+}
+
+
+.book-wrapper {
+   border: 3px solid #000;
+background-color: #ffffff;;
+display: flex;
+
+align-items: center;
+justify-content: space-between;
+
+padding: 1.5rem 1rem;
+border-radius: 15px;
+}
+
+.book-title {
+   font-family: "Satoshi-Bold", sans-serif;
+   font-size: 2.5rem;
+   color: #fff;
+}
+
+
+
+.book-btn {
+   font-family: "Wotfard", sans-serif;
+   padding: 0.5rem 1rem;
+   border-radius: 0.25rem;
+   background-color: #334bff;
+   color: #fff;
+   font-size: 1.5rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   transition: all 0.3s ease;
+ }
+ 
+ .book-btn:hover {
+   opacity: 0.8;
+ }
+ 
+ 
