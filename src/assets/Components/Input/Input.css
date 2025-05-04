@@ -14,7 +14,9 @@
     font-size: 1.5rem;
     font-weight: 550;
     transition: 0.3s ease-in-out;
-    box-shadow: 0 0 0 5px transparent;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+    
+
   }
   
   .formField span {
