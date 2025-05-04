@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Hero.css"
 import HeroImg from "../../../assets/Images/hero.png"
-import HeroInvert from "../../../assets/Images/HeroInvert.png"
+import HeroInvert from "../../../assets/Images/heroinvert.png"
 import Input from '../../../assets/Components/Input/Input'
 import Button from '../../../assets/Components/Btn/Button'
 const Hero = () => {
